@@ -1,0 +1,29 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="UWP.DetailedView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid>
+        <Grid x:ConnectionId='2'                           >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MinWidth="460" MaxWidth="460"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="175"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:ConnectionId='3' x:Name="two"                          Margin="25,10,83,10" Grid.Column="0" TextWrapping="Wrap"/>
+                <TextBlock x:ConnectionId='4' x:Name="three"                               Margin="35,10,15,10" Grid.Column="1" TextWrapping="Wrap"/>
+                <TextBlock x:ConnectionId='5' x:Name="four"                            Margin="60,10,0,10" Grid.Column="2" TextWrapping="Wrap"/>
+                <TextBlock x:ConnectionId='6' x:Name="five"                                 Margin="55,10,0,10" Grid.Column="3" TextWrapping="Wrap"/>
+            <TextBlock x:ConnectionId='7' x:Name="six"                              Margin="65,10,0,10" Grid.Column="4" TextWrapping="Wrap" />
+        </Grid>
+    </Grid>
+</UserControl>
+
