@@ -243,6 +243,11 @@ namespace UWP
         {
             contentDialog1.Hide();
         }
+
+        private void goBack_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
 

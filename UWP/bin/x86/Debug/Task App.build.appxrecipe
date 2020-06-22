@@ -136,9 +136,6 @@
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\DetailedView.xbf">
       <PackagePath>DetailedView.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\Details.xbf">
-      <PackagePath>Details.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\Display.xbf">
       <PackagePath>Display.xbf</PackagePath>
     </AppxPackagedFile>

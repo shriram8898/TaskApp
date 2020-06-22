@@ -1,13 +1,16 @@
 ﻿using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
+using Windows.Storage.Pickers;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -29,6 +32,7 @@ namespace UWP
         public Employee emp = new Employee();
         public td click = new td();
         public PasData data;
+        public ObservableCollection<td> tds = new ObservableCollection<td>();
         public TaskDetailedView()
         {
             
@@ -38,6 +42,7 @@ namespace UWP
 
         private async void initiaze()
         {
+            await listIntializer();
             if(!(click.Assign_by_id==emp.id||emp.post=="manager"))
             {
                 delete.Visibility = Visibility.Collapsed;
@@ -73,6 +78,62 @@ namespace UWP
             }
                 
             await DisplayTaskDetails();
+            await upladFilesinDB();
+        }
+
+        private async Task listIntializer()
+        {
+            tds.Clear();
+            string tableCommand = "SELECT * FROM task;";
+            string dbpath = Path.Combine(ApplicationData.Current.LocalFolder.Path, "taskdb.db");
+            using (SqliteConnection db = new SqliteConnection($"Filename={dbpath}"))
+            {
+                db.Open();
+                SqliteCommand createTable = new SqliteCommand(tableCommand, db);
+                SqliteDataReader reader = createTable.ExecuteReader();
+                while (reader.Read())
+                {
+                    tds.Add(new td
+                    {
+                        id = reader.GetString(0),
+                        name = reader.GetString(1),
+                        details = reader.GetString(2),
+                        Assign_to = reader.GetString(3),
+                        Assign_by = reader.GetString(4),
+                        Assign_to_id = reader.GetString(5),
+                        Assign_by_id = reader.GetString(6),
+                        createdDate = reader.GetDateTime(8),
+                        team = reader.GetString(7),
+                        priority = reader.GetString(10),
+                        status = reader.GetString(11),
+                        collective = reader.GetString(12),
+                        updated = reader.GetDateTime(13)
+                    });
+                }
+
+                var groups = from c in tds
+                             group c by c.collective;
+                this.cvs.Source = groups;
+                list.SelectedIndex = -1;
+            }
+        }
+
+        private async Task upladFilesinDB()
+        {
+            files.Text = "";
+            string dbpath = Path.Combine(ApplicationData.Current.LocalFolder.Path, "taskdb.db");
+            using (SqliteConnection db = new SqliteConnection($"Filename={dbpath}"))
+            {
+                db.Open();
+                string tableCommand = "SELECT * FROM colltask WHERE taskid='" + click.id + "';";
+                SqliteCommand createTable = new SqliteCommand(tableCommand, db);
+                SqliteDataReader reader = createTable.ExecuteReader();
+                if (reader.Read())
+                {
+                    files.Text = reader.GetString(2);
+                    files.Visibility = Visibility.Visible;
+                }
+            }
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -116,11 +177,13 @@ namespace UWP
                 db.Open();
                 string tableCommand = "DELETE FROM task WHERE taskid='" + click.id + "';";
                 SqliteCommand createTable = new SqliteCommand(tableCommand, db);
-                SqliteDataReader reader = createTable.ExecuteReader();
-                while (reader.Read())
-                {
-                    comments.Items.Add(reader.GetString(1));
-                }
+                createTable.ExecuteReader();
+                tableCommand = "DELETE FROM comment WHERE taskid='" + click.id + "';";
+                createTable = new SqliteCommand(tableCommand, db);
+                createTable.ExecuteReader();
+                tableCommand = "DELETE FROM colltask WHERE taskid='" + click.id + "';";
+                createTable = new SqliteCommand(tableCommand, db);
+                createTable.ExecuteReader();
             }
         }
         private async Task DisplayTaskDetails()
@@ -198,20 +261,54 @@ namespace UWP
             }
         }
 
+        private async void upload_Click(object sender, RoutedEventArgs e)
+        {
+            FileOpenPicker openPicker = new FileOpenPicker();
+            openPicker.ViewMode = PickerViewMode.Thumbnail;
+            openPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
+            openPicker.FileTypeFilter.Add(".jpg");
+            openPicker.FileTypeFilter.Add(".jpeg");
+            openPicker.FileTypeFilter.Add(".png");
+            StorageFile file = await openPicker.PickSingleFileAsync();
+            StringBuilder output = new StringBuilder();
+            if (file != null)
+            {
+                files.Text = "";
+                output.Append("File Name   :"+file.Name + "\n");
+                output.Append("File Created:"+file.DateCreated);
+                files.Text = output.ToString();
+                files.Visibility = Visibility.Visible;
+                await WriteDataDatabase(output);
+            }
 
+        }
+
+        private async Task WriteDataDatabase(StringBuilder output)
+        {
+            string dbpath = Path.Combine(ApplicationData.Current.LocalFolder.Path, "taskdb.db");
+            using (SqliteConnection db = new SqliteConnection($"Filename={dbpath}"))
+            {
+                db.Open();
+                string tableCommand = "INSERT INTO colltask(taskid,name)" +
+                    "VALUES('" + click.id + "','" + output.ToString() + "');";
+                SqliteCommand createTable = new SqliteCommand(tableCommand, db);
+                createTable.ExecuteReader();
+
+            }
+        }
 
 
         // C# CODE FOR EDIT CONTENT DIALOG
         private async void initializeData()
         {
 
-            priority.Items.Add("None");
-            priority.Items.Add("Low");
-            priority.Items.Add("Medium");
-            priority.Items.Add("High");
-            collective.Items.Add("sample");
-            collective.Items.Add("Login");
-            collective.Items.Add("Other");
+            priority1.Items.Add("None");
+            priority1.Items.Add("Low");
+            priority1.Items.Add("Medium");
+            priority1.Items.Add("High");
+            collective1.Items.Add("sample");
+            collective1.Items.Add("Login");
+            collective1.Items.Add("Other");
             status.Items.Add("Open");
             status.Items.Add("Close");
             await LoadDataToForms();
@@ -220,13 +317,13 @@ namespace UWP
         private async Task LoadDataToForms()
         {
             int count = 0;
-            taskName.Text = click.name;
-            taskDetails.Text = click.details;
-            foreach (var item in priority.Items)
+            taskName1.Text = click.name;
+            taskDetails1.Text = click.details;
+            foreach (var item in priority1.Items)
             {
                 if (item.ToString() == click.priority)
                 {
-                    priority.SelectedIndex = count; break;
+                    priority1.SelectedIndex = count; break;
                 }
                 else
                     count++;
@@ -242,11 +339,11 @@ namespace UWP
                     count++;
             }
             count = 0;
-            foreach (var item in collective.Items)
+            foreach (var item in collective1.Items)
             {
                 if (item.ToString() == click.collective)
                 {
-                    collective.SelectedIndex = count; break;
+                    collective1.SelectedIndex = count; break;
                 }
                 else
                     count++;
@@ -257,24 +354,20 @@ namespace UWP
 
 
 
-        private async void add_Click(object sender, RoutedEventArgs e)
+        private async void save_Click(object sender, RoutedEventArgs e)
         {
-            string name = taskName.Text;
-            string details = taskDetails.Text;
-            string prior = priority.SelectedItem.ToString();
+            string name = taskName1.Text;
+            string details = taskDetails1.Text;
+            string prior = priority1.SelectedItem.ToString();
 
-            string coll = collective.SelectedItem.ToString();
+            string coll = collective1.SelectedItem.ToString();
 
             if (name == "" || details == "" || coll == "")
                 return;
             else
             {
                 await writeinDb(name, details, prior, coll);
-                taskName.Text = "";
-                taskDetails.Text = "";
-                priority.SelectedIndex = 0;
-                collective.SelectedIndex = 2;
-
+                
             }
         }
 
@@ -298,19 +391,25 @@ namespace UWP
             }
             contentDialog2.Hide();
             data.click1 = click;
+            await listIntializer();
             Frame.Navigate(typeof(TaskDetailedView), data);
         }
 
         private void edit1_Click(object sender, RoutedEventArgs e)
         {
-            taskDetails.Visibility = Visibility.Visible;
+            taskDetails1.Visibility = Visibility.Visible;
         }
 
-        private void cancel_Click(object sender, RoutedEventArgs e)
+        private void cancel1_Click(object sender, RoutedEventArgs e)
         {
             contentDialog2.Hide();
         }
 
-       
+        private void list_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var clickedItem = e.ClickedItem;
+            click = (td)clickedItem;
+            initiaze();
+        }
     }
 }

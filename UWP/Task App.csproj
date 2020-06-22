@@ -122,9 +122,6 @@
     <Compile Include="DetailedView.xaml.cs">
       <DependentUpon>DetailedView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Details.xaml.cs">
-      <DependentUpon>Details.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Display.xaml.cs">
       <DependentUpon>Display.xaml</DependentUpon>
     </Compile>
@@ -161,10 +158,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="DetailedView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Details.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

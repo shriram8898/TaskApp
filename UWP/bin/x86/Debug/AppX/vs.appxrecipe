@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-06-18T09:07:41.922</Modified>
+      <Modified>2020-06-22T09:02:44.555</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\Task App.exe">
       <PackagePath>entrypoint\Task App.exe</PackagePath>
-      <Modified>2020-06-18T09:07:38.746</Modified>
+      <Modified>2020-06-22T09:02:41.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -170,31 +170,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\Task App.xr.xml">
       <PackagePath>Task App.xr.xml</PackagePath>
-      <Modified>2020-06-18T08:47:02.623</Modified>
+      <Modified>2020-06-22T08:59:45.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-06-18T09:07:38.370</Modified>
+      <Modified>2020-06-22T09:02:40.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\DetailedView.xbf">
       <PackagePath>DetailedView.xbf</PackagePath>
-      <Modified>2020-06-18T09:07:38.370</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\Details.xbf">
-      <PackagePath>Details.xbf</PackagePath>
-      <Modified>2020-06-18T09:07:38.370</Modified>
+      <Modified>2020-06-22T09:02:40.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\Display.xbf">
       <PackagePath>Display.xbf</PackagePath>
-      <Modified>2020-06-18T09:07:38.361</Modified>
+      <Modified>2020-06-22T09:02:40.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-06-18T09:07:38.371</Modified>
+      <Modified>2020-06-22T09:02:40.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\TaskDetailedView.xbf">
       <PackagePath>TaskDetailedView.xbf</PackagePath>
-      <Modified>2020-06-18T09:07:38.370</Modified>
+      <Modified>2020-06-22T09:02:40.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -202,11 +198,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-06-17T13:03:37.413</Modified>
+      <Modified>2020-06-22T05:11:54.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Zoho%28pt3644%29\UWP\bin\x86\Debug\Core\Task App.exe">
       <PackagePath>Task App.exe</PackagePath>
-      <Modified>2020-06-18T09:07:41.913</Modified>
+      <Modified>2020-06-22T09:02:44.546</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
