@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Task_App.DashBoard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Task_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+   
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Border Background="#00BFFF" Margin="10,0,10,0" BorderBrush="#6495ED" BorderThickness="2,2,2,2">
+            <Grid>
+                <Button Content="&#xE0AD;" Foreground="Black" FontSize="10" Background="White" CornerRadius="4"/>
+                <TextBlock Text="Task App" FontSize="26" Foreground="White" HorizontalAlignment="Center" FontFamily="Algerian" VerticalAlignment="Center" />
+            </Grid>
+        </Border>
+        <Frame x:Name="myframe" Grid.Row="1"/>
+    </Grid>
+</Page>
