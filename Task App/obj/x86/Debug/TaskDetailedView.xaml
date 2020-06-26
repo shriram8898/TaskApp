@@ -1,0 +1,238 @@
+﻿<Page
+    x:Class="Task_App.TaskDetailedView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Task_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <CollectionViewSource x:ConnectionId='2' x:Key="cvs" x:Name="cvs" IsSourceGrouped="True" />
+    </Page.Resources>
+    <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="500"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="listviewcolumn.Width" Value="0"/>
+                        <Setter Target="detailviewcolumn.Width" Value="*"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState >
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:ConnectionId='3' x:Name="listviewcolumn" Width="1*"/>
+            <ColumnDefinition x:ConnectionId='4' x:Name="detailviewcolumn" Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="All Task" FontSize="36" FontWeight="ExtraBold" Margin="5,0,0,0"/>
+            <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1" Margin="5,0,0,0">
+                <ListView x:ConnectionId='39'  x:Name="list" SelectionMode="Single"                            IsItemClickEnabled="True" ItemsSource="{Binding Source={StaticResource cvs}}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate                      >
+                            <StackPanel x:ConnectionId='41'>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Name:" FontWeight="Bold"/>
+                                    <TextBlock x:ConnectionId='44'                      FontWeight="Bold" />
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Assigned:"/>
+                                    <TextBlock x:ConnectionId='43'                           />
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Priority:"/>
+                                    <TextBlock x:ConnectionId='42'                           />
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListView.GroupStyle>
+                        <GroupStyle>
+                            <GroupStyle.HeaderTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Key}" Margin="5,0,0,0"
+                               Foreground="Black"  />
+                                </DataTemplate>
+                            </GroupStyle.HeaderTemplate>
+                        </GroupStyle>
+                    </ListView.GroupStyle>
+                </ListView>
+            </Border>
+        </Grid>
+
+
+
+        <Grid x:ConnectionId='5' x:Name="DetailedView" Grid.Column="1">
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                <Border BorderBrush="Black" BorderThickness="1" Margin="10,0,10,20" >
+                    <StackPanel >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Button x:ConnectionId='35' x:Name="goBack" FontFamily="Segoe MDL2 Assets" Content="&#xE0c4;"  Margin="10,50,0,0" VerticalAlignment="Top"                     />
+                            <Button x:ConnectionId='36' x:Name="delete" FontFamily="Segoe MDL2 Assets" Content="&#xE107;" Margin="0,50,10,0"  VerticalAlignment="Top"  HorizontalAlignment="Right"                     />
+                            <Button x:ConnectionId='37' x:Name="edit" FontFamily="Segoe MDL2 Assets" Content="&#xE104;"  Margin="0,50,50,0" VerticalAlignment="Top"                     HorizontalAlignment="Right"/>
+                            <Button x:ConnectionId='38' x:Name="complete" Content="Mark as Completed" Margin="0,50,50,0"                        Visibility="Collapsed" HorizontalAlignment="Right"/>
+                        </Grid>
+                        <TextBlock x:ConnectionId='16' x:Name="tName" HorizontalAlignment="Left" MaxHeight="100" Margin="10,10,10,0"  FontSize="36" FontWeight="Bold" Foreground ="#3b5998"/>
+                        <StackPanel>
+
+                            <StackPanel >
+                                <TextBlock Text="Task ID" HorizontalAlignment="Left"   TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,10,10,0" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='34' x:Name="tid" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0" />
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="Assign By" HorizontalAlignment="Left"   TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,10,10,0" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='33' x:Name="tby" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"/>
+                            </StackPanel>
+                            <StackPanel >
+                                <TextBlock Text="Assign To" HorizontalAlignment="Left"   TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,10,10,0" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='32' x:Name="tto" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"/>
+                            </StackPanel>
+                            <StackPanel >
+                                <TextBlock Text="Status" HorizontalAlignment="Left"   TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,10,10,0" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='31' x:Name="tstatus" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="Priority" HorizontalAlignment="Left"   TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,10,10,0" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='30' x:Name="tprior" Text="High" TextWrapping="Wrap" Margin="10,0,10,0"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="Created On" HorizontalAlignment="Left"   TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,10,10,0" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='29' x:Name="tcreated" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="Updated On" HorizontalAlignment="Left" Height="25" Margin="10,20,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='28' x:Name="tup"  HorizontalAlignment="Left" Text="TextBlock" TextWrapping="Wrap" MaxWidth="1100" Margin="10,0,0,0"/>
+                            </StackPanel>
+                            <StackPanel >
+                                <TextBlock Text="Related" HorizontalAlignment="Left" Height="25" Margin="10,20,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='27' x:Name="trelate"  HorizontalAlignment="Left" Text="TextBlock" TextWrapping="Wrap" MaxWidth="1100" Margin="10,0,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+
+
+
+
+
+                        <TextBlock Text="Summary" HorizontalAlignment="Left" Height="25" Margin="10,20,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Opacity="0.5" FontSize="14" FontWeight="Bold"/>
+                        <TextBlock x:ConnectionId='17' x:Name="td"  HorizontalAlignment="Left" Text="TextBlock" TextWrapping="Wrap" MaxWidth="1100" Margin="10,0,0,0"/>
+
+
+
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:ConnectionId='25' x:Name="commSec" FontFamily="Segoe MDL2 Assets" Content="&#xE134;"  Margin="10,50,0,0" VerticalAlignment="Top"                      />
+                            <TextBlock x:ConnectionId='26' x:Name="com" HorizontalAlignment="Left" Margin="0,50,0,0" Text="Comments" TextWrapping="Wrap" FontSize="18" />
+                        </StackPanel>
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:ConnectionId='20' x:Name="normal">
+                                    <VisualState>
+                                        <VisualState.StateTriggers>
+                                            <AdaptiveTrigger MinWindowWidth="600"/>
+                                        </VisualState.StateTriggers>
+                                        <VisualState.Setters>
+                                            <Setter Target="commen.Visibility" Value="Visible"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <StackPanel x:ConnectionId='21' x:Name="commen" Visibility="Collapsed" Margin="0,15,0,0">
+                                <ListBox x:ConnectionId='22' x:Name="comments" HorizontalAlignment="Left" Height="155" Margin="10,0,0,10" FontSize="14" Width="500" >
+                                    <ListBox.ItemContainerStyle>
+                                        <Style TargetType="ListViewItem">
+                                            <Setter Property="Padding" Value="0"/>
+                                            <Setter Property="Margin" Value="0"/>
+                                        </Style>
+                                    </ListBox.ItemContainerStyle>
+                                </ListBox>
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                    <TextBox x:ConnectionId='23' x:Name="combox" HorizontalAlignment="Left" Height="40" Margin="10,0,0,40" PlaceholderText="Type Here" TextWrapping="Wrap" Width="400"/>
+                                    <Button x:ConnectionId='24' Content="Comment" Height="40" Margin="5,0,0,40"  Width="100"                     />
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+
+
+                        <Grid Margin="10,20,10,30">
+                            <StackPanel>
+                                <Button x:ConnectionId='18' Content="Upload Files" x:Name="upload"                     />
+                                <TextBlock x:ConnectionId='19' Name="files" Visibility="Collapsed" Margin="0,10,0,0"></TextBlock>
+                            </StackPanel>
+                        </Grid>
+
+                    </StackPanel>
+
+                </Border>
+            </ScrollViewer>
+            <ContentDialog x:ConnectionId='6' x:Name="contentDialog2">
+                <ContentDialog.TitleTemplate>
+                    <DataTemplate>
+                        <Grid >
+                            <TextBlock Text="Edit Task" FontWeight="SemiBold" FontSize="18" FontFamily="TimesNewRoman"/>
+                        </Grid>
+
+                    </DataTemplate>
+                </ContentDialog.TitleTemplate>
+                <Border BorderBrush="Black" BorderThickness="1">
+                    <Grid Margin="0,0,0,72">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="55.2"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="64.8"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="608"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:ConnectionId='8' x:Name="save" Content="Save" CornerRadius="15" Foreground="White" Background="#FF009CD6" Margin="211,65,0,0"                   
+                                Grid.Row="5" Grid.Column="1" Width="100" Height="34" VerticalAlignment="Top" Grid.RowSpan="2"  />
+                        <Button x:ConnectionId='9' x:Name="cancel1" Content="Cancel" CornerRadius="15" Margin="100,65,0,0"                       Grid.Row="5" Grid.Column="1" Width="100" Height="34" VerticalAlignment="Top" Grid.RowSpan="2"  />
+                        <TextBlock Text="Task Name" Margin="10,10,10,9" FontSize="18" FontFamily="Segoe UI" Grid.Row="0"/>
+                        <TextBox x:ConnectionId='10' Name="taskName1" Margin="33,13,305,8" Grid.Column="1" Grid.Row="0"/>
+                        <StackPanel Grid.ColumnSpan="2" Grid.Row="1">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Task Description" Margin="10,10,10,9" FontSize="18" FontFamily="Segoe UI" VerticalAlignment="Center"/>
+                                <Button x:ConnectionId='15' x:Name="edit1" FontFamily="Segoe MDL2 Assets" Content="&#xE104;"  Margin="0,10,0,0" VerticalAlignment="Top"                     />
+                            </StackPanel>
+                            <TextBox x:ConnectionId='14' Name="taskDetails1" TextWrapping="Wrap" Grid.ColumnSpan="2" Grid.Row="1" Visibility="Collapsed" Margin="10,10,304,9" />
+                        </StackPanel>
+
+                        <TextBlock Text="Priority" FontSize="18" Margin="10,27,10,9" FontFamily="Segoe UI" Grid.Row="2"/>
+                        <ComboBox x:ConnectionId='11' x:Name="priority1" Width="271" Margin="33,0,0,0" Grid.Column="1" Grid.Row="2" SelectedIndex="0" VerticalAlignment="Center"  />
+                        <TextBlock Text="Task List" FontSize="18" Margin="10,10,10,9" FontFamily="Segoe UI" Grid.Row="3"/>
+                        <ComboBox x:ConnectionId='12' x:Name="collective1" Width="271" Margin="33,0,0,0" Grid.Column="1" Grid.Row="3" SelectedIndex="2" VerticalAlignment="Center"  />
+                        <TextBlock Text="Status" Margin="10,10,10,9" FontSize="18" FontFamily="Segoe UI" Grid.Row="4"/>
+                        <ComboBox x:ConnectionId='13' Name="status" Margin="33,13,305,8" Grid.Column="1" Grid.Row="4" Width="271"/>
+                    </Grid>
+                </Border>
+
+            </ContentDialog>
+        </Grid>
+
+
+    </Grid>
+</Page>
+

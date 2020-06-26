@@ -1,0 +1,155 @@
+E:\Visual Studio Projects\Task App\bin\x64\Debug\App.xbf
+E:\Visual Studio Projects\Task App\bin\x64\Debug\DashBoard.xbf
+E:\Visual Studio Projects\Task App\bin\x64\Debug\DetailsOfList.xbf
+E:\Visual Studio Projects\Task App\bin\x64\Debug\MainPage.xbf
+E:\Visual Studio Projects\Task App\bin\x64\Debug\TaskDetailedView.xbf
+E:\Visual Studio Projects\Task App\bin\x64\Debug\Task App.xr.xml
+E:\Visual Studio Projects\Task App\bin\x64\Debug\Task App.exe
+E:\Visual Studio Projects\Task App\bin\x64\Debug\Task App.pdb
+E:\Visual Studio Projects\Task App\bin\x64\Debug\resources.pri
+E:\Visual Studio Projects\Task App\bin\x64\Debug\AppxManifest.xml
+E:\Visual Studio Projects\Task App\bin\x64\Debug\Core\AppxManifest.xml
+E:\Visual Studio Projects\Task App\bin\x64\Debug\Core\Task App.exe
+E:\Visual Studio Projects\Task App\bin\x64\Debug\Task App.build.appxrecipe
+E:\Visual Studio Projects\Task App\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+E:\Visual Studio Projects\Task App\bin\x64\Debug\System.Runtime.dll
+E:\Visual Studio Projects\Task App\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+E:\Visual Studio Projects\Task App\bin\x64\Debug\SQLitePCLRaw.core.dll
+E:\Visual Studio Projects\Task App\bin\x64\Debug\e_sqlite3.dll
+E:\Visual Studio Projects\Task App\bin\x64\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\Visual Studio Projects\Task App\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+E:\Visual Studio Projects\Task App\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Visual Studio Projects\Task App\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+E:\Visual Studio Projects\Task App\obj\x64\Debug\Task App.csprojAssemblyReference.cache
+E:\Visual Studio Projects\Task App\obj\x64\Debug\App.g.i.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\App.g.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\DashBoard.g.i.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\DashBoard.g.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\DetailsOfList.g.i.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\DetailsOfList.g.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MainPage.g.i.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MainPage.g.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\TaskDetailedView.g.i.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\TaskDetailedView.g.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\XamlTypeInfo.g.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\App.xaml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\DashBoard.xaml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\DetailsOfList.xaml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MainPage.xaml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\TaskDetailedView.xaml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\App.xbf
+E:\Visual Studio Projects\Task App\obj\x64\Debug\DashBoard.xbf
+E:\Visual Studio Projects\Task App\obj\x64\Debug\DetailsOfList.xbf
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MainPage.xbf
+E:\Visual Studio Projects\Task App\obj\x64\Debug\TaskDetailedView.xbf
+E:\Visual Studio Projects\Task App\obj\x64\Debug\XamlSaveStateFile.xml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\Task App.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\Task App\obj\x64\Debug\Task App.csproj.CopyComplete
+E:\Visual Studio Projects\Task App\obj\x64\Debug\Task App.exe
+E:\Visual Studio Projects\Task App\obj\x64\Debug\Task App.pdb
+E:\Visual Studio Projects\Task App\obj\x64\Debug\ResourceHandlingTask.state
+E:\Visual Studio Projects\Task App\obj\x64\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+E:\Visual Studio Projects\Task App\obj\x64\Debug\priconfig.xml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\priconfig.xml.intermediate
+E:\Visual Studio Projects\Task App\obj\x64\Debug\unfiltered.layout.resfiles
+E:\Visual Studio Projects\Task App\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+E:\Visual Studio Projects\Task App\obj\x64\Debug\filtered.layout.resfiles
+E:\Visual Studio Projects\Task App\obj\x64\Debug\filtered.layout.resfiles.intermediate
+E:\Visual Studio Projects\Task App\obj\x64\Debug\excluded.layout.resfiles
+E:\Visual Studio Projects\Task App\obj\x64\Debug\excluded.layout.resfiles.intermediate
+E:\Visual Studio Projects\Task App\obj\x64\Debug\resources.resfiles
+E:\Visual Studio Projects\Task App\obj\x64\Debug\resources.resfiles.intermediate
+E:\Visual Studio Projects\Task App\obj\x64\Debug\pri.resfiles
+E:\Visual Studio Projects\Task App\obj\x64\Debug\pri.resfiles.intermediate
+E:\Visual Studio Projects\Task App\obj\x64\Debug\qualifiers.txt
+E:\Visual Studio Projects\Task App\obj\x64\Debug\qualifiers.txt.intermediate
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Visual Studio Projects\Task App\obj\x64\Debug\ProjectArchitectures.txt
+E:\Visual Studio Projects\Task App\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
+E:\Visual Studio Projects\Task App\bin\x64\Debug\taskList.xbf
+E:\Visual Studio Projects\Task App\obj\x64\Debug\taskList.g.i.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\taskList.g.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\taskList.xaml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\taskList.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\App.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\DashBoard.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\DetailsOfList.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\MainPage.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\MasterUC.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\TaskDetailedView.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\taskList.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\Task App.xr.xml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\Task App.exe
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\Task App.pdb
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\resources.pri
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\AppxManifest.xml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\Core\Task App.exe
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\Task App.build.appxrecipe
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\System.Runtime.dll
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\SQLitePCLRaw.core.dll
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\e_sqlite3.dll
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\Task App.csprojAssemblyReference.cache
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\App.g.i.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\App.g.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\DashBoard.g.i.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\DashBoard.g.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\DetailsOfList.g.i.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\DetailsOfList.g.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MainPage.g.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MasterUC.g.i.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MasterUC.g.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\TaskDetailedView.g.i.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\TaskDetailedView.g.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\taskList.g.i.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\taskList.g.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\App.xaml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\DashBoard.xaml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\DetailsOfList.xaml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MainPage.xaml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MasterUC.xaml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\TaskDetailedView.xaml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\taskList.xaml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\App.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\DashBoard.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\DetailsOfList.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MainPage.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MasterUC.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\TaskDetailedView.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\taskList.xbf
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\Task App.csproj.CoreCompileInputs.cache
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\Task App.csproj.CopyComplete
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\Task App.exe
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\Task App.pdb
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\priconfig.xml
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\resources.resfiles
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\pri.resfiles
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\qualifiers.txt
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\Documents\GitHub\Adaptive-trigger\Task App\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MasterUserControl.g.i.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MasterUserControl.g.cs
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MasterUserControl.xaml
+E:\Visual Studio Projects\Task App\obj\x64\Debug\MasterUserControl.xbf
+E:\Visual Studio Projects\Task App\bin\x64\Debug\MasterUserControl.xbf
