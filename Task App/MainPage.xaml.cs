@@ -57,7 +57,6 @@ namespace Task_App
                 createTable.ExecuteReader();
                 tableCommand = "CREATE TABLE IF NOT EXISTS files (id NVARCHAR(2048),taskid NVARCHAR(2048),name NVARCHAR(2048))";
                 createTable = new SqliteCommand(tableCommand, db);
-                SqliteDataReader reader = createTable.ExecuteReader();
                 createTable.ExecuteReader();
                 
             }
