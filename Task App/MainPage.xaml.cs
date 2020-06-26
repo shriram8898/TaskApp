@@ -73,7 +73,7 @@ namespace Task_App
             }
             else
             {
-                emp = new Employee { id = "001", name = "Shriram", post = "developer", username = "123@gmail.com", password = "123", team = "desktop" };
+                emp = new Employee { id = "001", name = "Shriram", post = "developer", username = "shri8858@gmail.com", password = "shriram8898", team = "desktop" };
                 Frame.Navigate(typeof(DashBoard), emp);
                 //checkDb(us, pas);
             }
