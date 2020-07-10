@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="Task_App.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Task_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Settings" FontSize="36" FontFamily="Times New Roman" FontWeight="SemiBold" Margin="10,0,0,0"/>
+        <StackPanel Grid.Row="1">
+            <StackPanel Margin="10,10,0,0">
+                <TextBlock Text="Choose your theme:" FontSize="18" FontWeight="Medium"/>
+                <RadioButton x:Name="Dark" Margin="5" Checked="HandleCheck"
+                        GroupName="First Group" Content="Dark" />
+                <RadioButton x:Name="Light" Margin="5" Checked="HandleCheck"
+                        GroupName="First Group" Content="Light" />
+                <RadioButton x:Name="Custom" Margin="5" Checked="HandleCheck"
+                        GroupName="First Group" Content="Custom" />
+            </StackPanel>
+            <StackPanel Margin="10,20,0,0">
+                <TextBlock Text="Show Task of:" FontSize="18" FontWeight="Medium"/>
+                <RadioButton x:Name="Team" Margin="5" Checked="HandleCheck1"
+                        GroupName="Second Group" Content="Team" />
+                <RadioButton x:Name="All" Margin="5" Checked="HandleCheck1"
+                        GroupName="Second Group" Content="All" />                
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

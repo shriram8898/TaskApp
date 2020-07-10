@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-VP2MNLD</Machine>
+    <WindowsUser>CATCH_ME_IF_YOU_CAN</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>5d5840dc-dbcf-415f-ae54-6c29bdc966f3</PackageIdentityName>
+    <PackageIdentityPublisher>CN=CATCH_ME_IF_YOU_CAN</PackageIdentityPublisher>
+    <IntermediateOutputPath>E:\Zoho%28pt3644%29\Task App\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>4ABEC9D2EA9DF337BC05A55344F290FE814B0CF9BC782950437E6041B4304123</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5d5840dc-dbcf-415f-ae54-6c29bdc966f3_1.0.0.0_x86__pkqa0g0cre51w</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5d5840dc-dbcf-415f-ae54-6c29bdc966f3_pkqa0g0cre51w!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5d5840dc-dbcf-415f-ae54-6c29bdc966f3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=CATCH_ME_IF_YOU_CAN</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-07-09T10:41:42.389</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Task App.exe">
+      <PackagePath>entrypoint\Task App.exe</PackagePath>
+      <Modified>2020-07-09T10:41:39.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+      <Modified>2018-10-05T18:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+      <PackagePath>ColorCode.UWP.dll</PackagePath>
+      <Modified>2018-10-05T18:00:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.data.sqlite.core\3.1.5\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2020-05-20T21:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit\6.1.0\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2020-06-13T01:41:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.parsers\6.1.0\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
+      <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
+      <Modified>2020-06-13T01:41:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2020-06-13T01:41:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp.ui\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+      <Modified>2020-06-13T01:41:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp.ui.animations\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
+      <Modified>2020-06-13T01:41:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
+      <Modified>2020-06-13T01:41:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2019-04-26T19:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2019-04-26T19:36:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-06-18T08:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-27T13:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\sqlitepclraw.bundle_winsqlite3\2.0.3\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-05-01T09:06:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\sqlitepclraw.core\2.0.3\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2020-05-01T09:05:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.2\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2019-08-15T12:44:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.2\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2019-11-01T11:53:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\sqlitepclraw.provider.winsqlite3\2.0.3\lib\netstandard2.0\SQLitePCLRaw.provider.winsqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.winsqlite3.dll</PackagePath>
+      <Modified>2020-05-01T09:05:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2020-02-19T04:35:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\win2d.uwp\1.25.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2020-04-02T14:14:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2020-04-02T14:14:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T13:06:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
+      <Modified>2020-06-13T01:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\001.jpg">
+      <PackagePath>Assets\001.jpg</PackagePath>
+      <Modified>2020-07-08T11:26:21.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\002.jpg">
+      <PackagePath>Assets\002.jpg</PackagePath>
+      <Modified>2020-07-08T11:26:21.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\003.jpg">
+      <PackagePath>Assets\003.jpg</PackagePath>
+      <Modified>2020-07-08T11:26:21.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\004.jpg">
+      <PackagePath>Assets\004.jpg</PackagePath>
+      <Modified>2020-07-08T11:26:21.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\005.jpg">
+      <PackagePath>Assets\005.jpg</PackagePath>
+      <Modified>2020-07-08T11:26:21.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\006.jpg">
+      <PackagePath>Assets\006.jpg</PackagePath>
+      <Modified>2020-07-08T11:26:21.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\img.jpg">
+      <PackagePath>Assets\img.jpg</PackagePath>
+      <Modified>2020-07-08T03:59:17.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\member.png">
+      <PackagePath>Assets\member.png</PackagePath>
+      <Modified>2020-07-02T11:44:41.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\team.png">
+      <PackagePath>Assets\team.png</PackagePath>
+      <Modified>2020-06-30T09:10:56.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-05-26T05:22:14.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-26T05:22:14.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-26T05:22:14.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-26T05:22:14.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-26T05:22:14.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-26T05:22:14.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-26T05:22:14.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-06-28T06:21:12.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Task App.xr.xml">
+      <PackagePath>Task App.xr.xml</PackagePath>
+      <Modified>2020-07-09T09:26:44.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\commentsUserControl.xbf">
+      <PackagePath>commentsUserControl.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\DashBoard.xbf">
+      <PackagePath>DashBoard.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\DetailsOfList.xbf">
+      <PackagePath>DetailsOfList.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\MasterUserControl.xbf">
+      <PackagePath>MasterUserControl.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\MembersDetails.xbf">
+      <PackagePath>MembersDetails.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Settings.xbf">
+      <PackagePath>Settings.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\TaskDetailedView.xbf">
+      <PackagePath>TaskDetailedView.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\TaskList.xbf">
+      <PackagePath>TaskList.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\TeamDetails.xbf">
+      <PackagePath>TeamDetails.xbf</PackagePath>
+      <Modified>2020-07-09T10:41:39.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Teams.xbf">
+      <PackagePath>Teams.xbf</PackagePath>
+      <Modified>2020-07-09T10:33:27.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T12:03:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-07-09T09:26:46.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Core\Task App.exe">
+      <PackagePath>Task App.exe</PackagePath>
+      <Modified>2020-07-09T10:41:42.375</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
