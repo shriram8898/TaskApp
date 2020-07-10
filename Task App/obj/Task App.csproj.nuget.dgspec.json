@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Visual Studio Projects\\Task App\\Task App.csproj": {}
+    "E:\\Zoho(pt3644)\\Task App\\Task App.csproj": {}
   },
   "projects": {
-    "E:\\Visual Studio Projects\\Task App\\Task App.csproj": {
+    "E:\\Zoho(pt3644)\\Task App\\Task App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Visual Studio Projects\\Task App\\Task App.csproj",
+        "projectUniqueName": "E:\\Zoho(pt3644)\\Task App\\Task App.csproj",
         "projectName": "Task App",
-        "projectPath": "E:\\Visual Studio Projects\\Task App\\Task App.csproj",
+        "projectPath": "E:\\Zoho(pt3644)\\Task App\\Task App.csproj",
         "packagesPath": "C:\\Users\\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\\.nuget\\packages\\",
-        "outputPath": "E:\\Visual Studio Projects\\Task App\\obj\\",
+        "outputPath": "E:\\Zoho(pt3644)\\Task App\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -48,6 +48,18 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"
+            },
+            "Microsoft.Toolkit.Uwp": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Controls": {
+              "target": "Package",
+              "version": "[6.1.0, )"
             },
             "SQLitePCLRaw.bundle_winsqlite3": {
               "target": "Package",

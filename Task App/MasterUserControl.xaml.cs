@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Task_App.Models;
 using Windows.UI.Xaml.Navigation;
 
 // The User Control item template is documented at https://go.microsoft.com/fwlink/?LinkId=234236
@@ -20,12 +21,12 @@ namespace Task_App
 {
     public sealed partial class MasterUserControl : UserControl
     {
-        public td td { get { return this.DataContext as td; } }
+        public TaskDetails TaskDetails { get { return this.DataContext as TaskDetails; } }
         public MasterUserControl()
         {
             this.InitializeComponent();
         }
-        private async void StackPanel_Loaded(object sender, RoutedEventArgs e)
+        private void StackPanel_Loaded(object sender, RoutedEventArgs e)
         {
             DateTime dt = DateTime.Today;
             string[] spli = dt.ToString().Split(' ');
@@ -33,13 +34,13 @@ namespace Task_App
             dt = dt.AddDays(-1);
             spli = dt.ToString().Split(' ');
             string yesterday = spli[0];
-            string[] time = td.createdDate.ToString().Split(' ');
+            string[] time = TaskDetails.createdDate.ToString().Split(' ');
             if (time[0] == today)
                 date1.Text = "Today";
             else if (time[0] == yesterday)
                 date1.Text = "Yesterday";
             else
-                date1.Text = td.createdDate.ToString("MMMM dd");
+                date1.Text = TaskDetails.createdDate.ToString("MMMM dd");
             coloTheStatus();
         }
         private void text_TextChanged(object sender, TextChangedEventArgs e)

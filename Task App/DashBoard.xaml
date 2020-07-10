@@ -7,19 +7,61 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-   
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Border Background="#00BFFF" Margin="10,0,10,0" BorderBrush="#6495ED" BorderThickness="2,2,2,2">
-            <Grid>
-                <Button Content="&#xE0AD;" Foreground="Black" FontSize="10" Background="White" CornerRadius="4"/>
-                <TextBlock Text="Task App" FontSize="26" Foreground="White" HorizontalAlignment="Center" FontFamily="Algerian" VerticalAlignment="Center" />
-            </Grid>
-        </Border>
-        <Frame x:Name="myframe" Grid.Row="1"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <RelativePanel>
+                <Button Content="&#xE700;" FontSize="26" FontFamily="Segoe MDL2 Assets" Click="Button1_Click"  RelativePanel.AlignLeftWithPanel="True"/>
+            </RelativePanel>
+            <SplitView x:Name="SplitView" DisplayMode="CompactInline" OpenPaneLength="175" Grid.Row="1">
+                <SplitView.Pane>
+                    <ListBox x:Name="SplitViewItem" SelectionMode="Single" SelectionChanged="SplitViewItem_SelectionChanged">
+                        <ListBoxItem x:Name="Home">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE10F;" FontSize="24"/>
+                                <TextBlock Text="Home" Margin="11,0,0,0" FontSize="18" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="Task">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE16D;" FontSize="24"/>
+                                <TextBlock Text="Task" Margin="11,0,0,0" FontSize="18" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="Teams">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE902;" FontSize="24"/>
+                                <TextBlock Text="Teams" Margin="11,0,0,0" FontSize="18" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="Members">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE8FA;" FontSize="24"/>
+                                <TextBlock Text="Users" Margin="11,0,0,0" FontSize="18" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="Settings">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE115;" FontSize="24"/>
+                                <TextBlock Text="Settings" Margin="11,0,0,0" VerticalAlignment="Center" FontSize="18"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem x:Name="Logout">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE7E8;" FontSize="24"/>
+                                <TextBlock Text="Logout" Margin="11,0,0,0" VerticalAlignment="Center" FontSize="18"/>
+                            </StackPanel>
+                        </ListBoxItem>
+                    </ListBox>
+                </SplitView.Pane>
+                <SplitView.Content>
+                    <Frame x:Name="myframe"/>
+                </SplitView.Content>
+            </SplitView>
+        </Grid>
     </Grid>
 </Page>

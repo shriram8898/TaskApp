@@ -8,28 +8,61 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>318cf3cd-5d2b-41f1-9df8-d349547036a2</PackageIdentityName>
+    <PackageIdentityName>5d5840dc-dbcf-415f-ae54-6c29bdc966f3</PackageIdentityName>
     <PackageIdentityPublisher>CN=CATCH_ME_IF_YOU_CAN</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\Visual Studio Projects\Task App\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Zoho%28pt3644%29\Task App\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\Visual Studio Projects\Task App\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\Task App.exe">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Task App.exe">
       <PackagePath>entrypoint\Task App.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+      <PackagePath>ColorCode.UWP.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.data.sqlite.core\3.1.5\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit\6.1.0\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.parsers\6.1.0\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
+      <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp.ui\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp.ui.animations\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -49,64 +82,124 @@
     <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\sqlitepclraw.provider.winsqlite3\2.0.3\lib\netstandard2.0\SQLitePCLRaw.provider.winsqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.winsqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\win2d.uwp\1.25.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\CATCH_ME_IF_YOU_CAN.DESKTOP-VP2MNLD\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\001.jpg">
+      <PackagePath>Assets\001.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\002.jpg">
+      <PackagePath>Assets\002.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\003.jpg">
+      <PackagePath>Assets\003.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\004.jpg">
+      <PackagePath>Assets\004.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\005.jpg">
+      <PackagePath>Assets\005.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\006.jpg">
+      <PackagePath>Assets\006.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\img.jpg">
+      <PackagePath>Assets\img.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\member.png">
+      <PackagePath>Assets\member.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\team.png">
+      <PackagePath>Assets\team.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\Task App.xr.xml">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Task App.xr.xml">
       <PackagePath>Task App.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\DashBoard.xbf">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\commentsUserControl.xbf">
+      <PackagePath>commentsUserControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\DashBoard.xbf">
       <PackagePath>DashBoard.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\DetailsOfList.xbf">
+      <PackagePath>DetailsOfList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\TaskDetailedView.xbf">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\MasterUserControl.xbf">
+      <PackagePath>MasterUserControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\MembersDetails.xbf">
+      <PackagePath>MembersDetails.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Settings.xbf">
+      <PackagePath>Settings.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\TaskDetailedView.xbf">
       <PackagePath>TaskDetailedView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\TaskList.xbf">
+      <PackagePath>TaskList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\TeamDetails.xbf">
+      <PackagePath>TeamDetails.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Teams.xbf">
+      <PackagePath>Teams.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Visual Studio Projects\Task App\bin\x86\Debug\Core\Task App.exe">
+    <AppxPackagedFile Include="E:\Zoho%28pt3644%29\Task App\bin\x86\Debug\Core\Task App.exe">
       <PackagePath>Task App.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
